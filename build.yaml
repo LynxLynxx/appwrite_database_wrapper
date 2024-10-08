@@ -1,0 +1,13 @@
+builders:
+  appwrite_database_generator:
+    import: "package:appwrite_database_wrapper/src/builder.dart"
+    builder_factories: ["appwriteDatabaseGeneratorBuilder"]
+    build_extensions: { ".dart": [".g.dart"] }
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
+
+targets:
+  $default:
+    builders:
+      appwrite_database_wrapper:appwrite_database_generator:
+        enabled: true
