@@ -2,8 +2,8 @@ name: appwrite_database_wrapper
 description: "Simple wrapper for Appwrite Databases to write and read data from Appwrite Databases faster and easier."
 maintainer: Ryszard Schossler (LynxLynxx)
 version: 0.0.1
-repository: https://github.com:LynxLynxx/appwrite_database_wrapper
-issue_tracker: https://github.com:LynxLynxx/appwrite_database_wrapper/issues
+repository: https://github.com/LynxLynxx/appwrite_database_wrapper
+issue_tracker: https://github.com/LynxLynxx/appwrite_database_wrapper/issues
 homepage: "https://rsapps.org/"
 
 environment:
@@ -14,9 +14,9 @@ dependencies:
   flutter:
     sdk: flutter
   appwrite: ^13.0.0
-  flutter_lints: ^5.0.0
 
 dev_dependencies:
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
   mockito: ^5.4.4
